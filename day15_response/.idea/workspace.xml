@@ -38,10 +38,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/img" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.stormtides.web.servletcontext" />
       <recent name="cn.stormtides.web.servlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uni\IdeaProjects\day15_response\web\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,7 +150,8 @@
       <updated>1587110708285</updated>
       <workItem from="1587110710244" duration="9147000" />
       <workItem from="1587369267433" duration="710000" />
-      <workItem from="1587369984583" duration="7333000" />
+      <workItem from="1587369984583" duration="10976000" />
+      <workItem from="1587467823222" duration="6283000" />
     </task>
     <servers />
   </component>
