@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json遍历</title>
+    <script>
+        var person={"name":"张三","age":23,"gender":true};
+
+        // for (var key in person){
+        //     // alert(key+":"+person.key);
+        //     alert(key+":"+person[key]);
+        // }
+
+
+        var persons={"persons":[
+            {"name":"张三","age":23,"gender":true},
+                {"name":"李四","age":18,"gender":true},
+                {"name":"王五","age":25,"gender":false}
+                ]};
+
+
+
+
+        var ps=[ {"name":"张三","age":23,"gender":true},
+            {"name":"李四","age":18,"gender":true},
+            {"name":"王五","age":25,"gender":false}];
+
+        for (var i=0;i<ps.length;i++){
+            var p=ps[i];
+            for (var key in p){
+                alert(key+":"+p[key]);
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
